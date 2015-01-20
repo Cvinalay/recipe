@@ -1,0 +1,39 @@
+ <h1><%= @id %></h1>
+<div class="header">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Recipes</h1>
+      </div>
+    </div>
+  </div>   
+  <div class="stripe">
+      <div class="row"> 
+        <div class="picture">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <img src="<%= @recipes.url %>" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title"><%= @recipes.title %></div>
+      </div>
+      <div class="link">
+        <a href="/recipe/<%= @recipes.id %>/edit"> Edit </a>
+          <a href="/recipe/<%= @recipes.id %>/destroy">Delete</a>
+      </div>
+        <div class="container">
+          <div class="bio">
+            <div class="col-md-12">
+              <div class="title"><%= @recipes.ingredients %></div>
+            
+            <div class="steps">
+          <div class="bio">
+            <div class="col-md-12">
+              <div class="title"><%= @recipes.steps %></div>
+            
+            </div>
+      </div>

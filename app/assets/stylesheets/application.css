@@ -1,0 +1,28 @@
+.col-md-12 {
+  margin: 25px 50px;
+}
+
+.container {
+  font-family: Candara;
+  font-size: 22px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.stripe{
+  text-align: center;
+}
+.link {
+  text-align: center;
+  word-spacing: 5px;
+}
+.title {
+  text-align: center;
+}
+body {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(50%,#c19e67), color-stop(51%,#b68d4c), color-stop(100%,#e9d4b3))
+}
+.throw {
+  text-align: center;
+}
